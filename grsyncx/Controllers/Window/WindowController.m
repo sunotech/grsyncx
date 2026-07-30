@@ -23,6 +23,14 @@
 {
 	[super windowDidLoad];
 
+	self.window.toolbar = nil;
+
+	// Enable window resizing and configure size boundaries
+	self.window.styleMask |= NSWindowStyleMaskResizable;
+	// Keep all profile options and the action bar visible without an internal scroll area.
+	self.window.minSize = NSMakeSize(1050, 760);
+	[self.window setContentSize:NSMakeSize(1120, 800)];
+
 	NSViewController *vc = self.contentViewController;
 
 	if ([vc conformsToProtocol:@protocol(WindowActionsResponder)])

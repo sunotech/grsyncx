@@ -68,8 +68,8 @@ typedef NS_OPTIONS(NSUInteger, RSyncAdvancedProp) {
 	RSyncAdvancedPropShowItemizedChanges = (1 << 9),
 	// -d (vs -r) | If checked, source subdirectories will be ignored
 	RSyncAdvancedPropDisableRecursion = (1 << 10),
-	// -s | Protect remote args from shell expansion, avoids the need to
-	//      manually escape filename args like --exclude
+	// Reserved legacy bit. Apple's current openrsync rejects -s/--protect-args.
+	// Keep the value so older saved profiles can be migrated safely.
 	RSyncAdvancedPropProtectRemoteArgs = (1 << 11),
 };
 

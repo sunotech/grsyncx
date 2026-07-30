@@ -2,6 +2,10 @@
 
 Native GUI app for `rsync` inspired by _grsync_. 🔄 As the original _grsync_ app port compiled for _macOS_ used GTK+ and other 32-bit dependencies, it no longer works in _macOS Catalina_ → thus, a replacement must be made! 💪
 
+## This fork
+
+This personal fork is maintained by [SunnyY (@sunotech)](https://github.com/sunotech). It is based on the original [grsyncx project](https://github.com/username0x0a/grsyncx) by Michal Zelinka and contains ongoing modernization and feature work.
+
 ![Screenshot](https://i.imgur.com/WCjPs3h.png)
 
 ## How to use

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D630126423CDBDA700D07057 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630126523CDBDA700D07057 /* MainSwiftUIView.swift */; };
+		D630126623CDBDA700D07057 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630126723CDBDA700D07057 /* MainViewModel.swift */; };
 		D630126323CDBDA700D07057 /* SyncingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D630126223CDBDA700D07057 /* SyncingViewController.m */; };
 		D67B6A2023CC777500891072 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67B6A1F23CC777500891072 /* WindowController.m */; };
 		EF2B6CD424537795000EFBBF /* SyncProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B6CD324537795000EFBBF /* SyncProfile.m */; };
@@ -46,6 +48,8 @@
 		EFCFDA742459E845008C7853 /* UNXParsable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNXParsable.h; sourceTree = "<group>"; };
 		EFCFDA752459E845008C7853 /* UNXParsable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNXParsable.m; sourceTree = "<group>"; };
 		EFCFDA772459F5E5008C7853 /* Notifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		D630126523CDBDA700D07057 /* MainSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIView.swift; sourceTree = "<group>"; };
+		D630126723CDBDA700D07057 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		EF2B6CD52453821F000EFBBF /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				D630126523CDBDA700D07057 /* MainSwiftUIView.swift */,
+				D630126723CDBDA700D07057 /* MainViewModel.swift */,
 				EF8658C823CB84C50041726A /* MainViewController.h */,
 				EF8658C923CB84C50041726A /* MainViewController.m */,
 			);
@@ -240,6 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D630126423CDBDA700D07057 /* MainSwiftUIView.swift in Sources */,
+				D630126623CDBDA700D07057 /* MainViewModel.swift in Sources */,
 				EF8658CA23CB84C50041726A /* MainViewController.m in Sources */,
 				EFB48980245AC5B800CB2788 /* Foundation.m in Sources */,
 				EF2B6CD424537795000EFBBF /* SyncProfile.m in Sources */,
@@ -270,7 +278,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D67B6A2223CC996700891072 /* Config.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+
+				SWIFT_OBJC_BRIDGING_HEADER = "grsyncx/grsyncx-Bridging-Header.h";
+				SWIFT_VERSION = 5.0; DEFINES_MODULE = YES; SWIFT_OBJC_INTERFACE_HEADER_NAME = "grsyncx-Swift.h";				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_ENABLE_MODULES = YES;
@@ -325,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,7 +357,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D67B6A2223CC996700891072 /* Config.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+
+				SWIFT_OBJC_BRIDGING_HEADER = "grsyncx/grsyncx-Bridging-Header.h";
+				SWIFT_VERSION = 5.0; DEFINES_MODULE = YES; SWIFT_OBJC_INTERFACE_HEADER_NAME = "grsyncx-Swift.h";				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_ENABLE_MODULES = YES;
@@ -398,7 +410,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = (
@@ -418,7 +430,9 @@
 		EF8658D723CB84C80041726A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+
+				SWIFT_OBJC_BRIDGING_HEADER = "grsyncx/grsyncx-Bridging-Header.h";
+				SWIFT_VERSION = 5.0; DEFINES_MODULE = YES; SWIFT_OBJC_INTERFACE_HEADER_NAME = "grsyncx-Swift.h";				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = grsyncx/grsyncx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -437,7 +451,9 @@
 		EF8658D823CB84C80041726A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+
+				SWIFT_OBJC_BRIDGING_HEADER = "grsyncx/grsyncx-Bridging-Header.h";
+				SWIFT_VERSION = 5.0; DEFINES_MODULE = YES; SWIFT_OBJC_INTERFACE_HEADER_NAME = "grsyncx-Swift.h";				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = grsyncx/grsyncx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
