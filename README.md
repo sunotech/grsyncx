@@ -4,7 +4,7 @@ Native GUI app for `rsync` inspired by _grsync_. 🔄 As the original _grsync_ a
 
 ## This fork
 
-This personal fork is maintained by [SunnyY (@sunotech)](https://github.com/sunotech). It is based on the original [grsyncx project](https://github.com/username0x0a/grsyncx) by Michal Zelinka and contains ongoing modernization and feature work.
+This personal fork is maintained by [Sun Yong (@sunotech)](https://github.com/sunotech). It is based on the original [grsyncx project](https://github.com/username0x0a/grsyncx) by Michal Zelinka and contains ongoing modernization and feature work.
 
 ![grsyncx with profile 1 selected](docs/images/grsyncx-profile-1.jpeg)
 

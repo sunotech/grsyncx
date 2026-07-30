@@ -207,7 +207,7 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastUpgradeCheck = 1220;
-				ORGANIZATIONNAME = SunnyY;
+				ORGANIZATIONNAME = "Sun Yong";
 				TargetAttributes = {
 					EF8658C123CB84C50041726A = {
 						CreatedOnToolsVersion = 11.3;
