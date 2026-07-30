@@ -19,6 +19,10 @@ This personal fork is maintained by [SunnyY (@sunotech)](https://github.com/suno
 - Once you're content with the options, you can use the toolbar actions to either Simulate the command run or Execute an actual rsync. 🎉
 - Once it's finished, enjoy your backup. 👍
 
+## Download
+
+Prebuilt versions are available from [GitHub Releases](https://github.com/sunotech/grsyncx/releases). The current community build is ad-hoc signed because it is not yet notarized with an Apple Developer ID. On first launch, Control-click the app, choose **Open**, then confirm **Open**.
+
 ## TODO
 
 - Profiles as seen in the original _grsync_ app

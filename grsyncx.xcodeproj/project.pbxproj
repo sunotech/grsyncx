@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A20260730C0FFEE00000001 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5A20260730C0FFEE00000002 /* Credits.rtf */; };
 		D630126423CDBDA700D07057 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630126523CDBDA700D07057 /* MainSwiftUIView.swift */; };
 		D630126623CDBDA700D07057 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630126723CDBDA700D07057 /* MainViewModel.swift */; };
 		D630126323CDBDA700D07057 /* SyncingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D630126223CDBDA700D07057 /* SyncingViewController.m */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A20260730C0FFEE00000002 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		D630126123CDBDA700D07057 /* SyncingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncingViewController.h; sourceTree = "<group>"; };
 		D630126223CDBDA700D07057 /* SyncingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncingViewController.m; sourceTree = "<group>"; };
 		D67B6A1E23CC777500891072 /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		EFB48981245AD47C00CB2788 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A20260730C0FFEE00000002 /* Credits.rtf */,
 				EF8658CB23CB84C80041726A /* Assets.xcassets */,
 				EF8658CD23CB84C80041726A /* Main.storyboard */,
 			);
@@ -204,7 +207,7 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastUpgradeCheck = 1220;
-				ORGANIZATIONNAME = "Michal Zelinka";
+				ORGANIZATIONNAME = SunnyY;
 				TargetAttributes = {
 					EF8658C123CB84C50041726A = {
 						CreatedOnToolsVersion = 11.3;
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A20260730C0FFEE00000001 /* Credits.rtf in Resources */,
 				EF8658CC23CB84C80041726A /* Assets.xcassets in Resources */,
 				EF8658CF23CB84C80041726A /* Main.storyboard in Resources */,
 			);
@@ -443,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.misacek.grsyncx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunotech.grsyncx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -464,7 +468,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.misacek.grsyncx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunotech.grsyncx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
